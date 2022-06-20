@@ -1,10 +1,11 @@
 {
   "name": "tsp-scraper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Scrapes TSP share prices from the TSP website.",
   "main": "scraper.js",
+  "bin": "./scraper.js",
   "scripts": {
-    "start": "node scraper.js"
+    "start": "./scraper.js"
   },
   "author": "Jeff Fredrickson <jeff.fredrickson@gmail.com>",
   "license": "GPL-3.0",

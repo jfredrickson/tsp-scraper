@@ -4,9 +4,16 @@ Scrapes the redesigned TSP [share price history page](https://www.tsp.gov/fund-p
 
 ## Usage
 
+Install:
+
+```bash
+npm install tsp-scraper
 ```
-npm install
-node scraper.js > prices.json
+
+Run:
+
+```bash
+npx tsp-scraper
 ```
 
 ## Notes

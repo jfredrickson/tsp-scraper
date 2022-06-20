@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const { chromium } = require('playwright');
 const cheerio = require('cheerio');
 const dayjs = require('dayjs');
