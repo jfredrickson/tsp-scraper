@@ -8,7 +8,7 @@ const SHARE_PRICE_URL = process.env.SHARE_PRICE_URL || 'https://www.tsp.gov/fund
 const USER_AGENT = process.env.USER_AGENT || 'Mozilla/5.0 (X11; Linux x86_64; rv:100.0) Gecko/20100101 Firefox/100.0';
 
 const logger = winston.createLogger({
-  level: process.env.LOG_LEVEL || 'info',
+  level: process.env.LOG_LEVEL || 'warn',
   transports: [
     new winston.transports.Console()
   ]
