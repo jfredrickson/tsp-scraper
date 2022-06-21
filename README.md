@@ -4,6 +4,8 @@ Scrapes the redesigned TSP [share price history page](https://www.tsp.gov/fund-p
 
 ## Usage
 
+### Command line
+
 Install:
 
 ```bash
@@ -14,6 +16,13 @@ Run:
 
 ```bash
 npx tsp-scraper
+```
+
+### Module
+
+```js
+const scraper = require('tsp-scraper');
+const prices = await scrape(); // Returns current TSP share prices
 ```
 
 ## Notes

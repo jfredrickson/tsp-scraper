@@ -1,19 +1,20 @@
 {
   "name": "tsp-scraper",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Scrapes TSP share prices from the TSP website.",
   "main": "scraper.js",
   "bin": "./scraper.js",
   "scripts": {
-    "start": "./scraper.js"
+    "test": "jest"
   },
   "author": "Jeff Fredrickson <jeff.fredrickson@gmail.com>",
   "license": "GPL-3.0",
   "dependencies": {
     "cheerio": "^1.0.0-rc.11",
     "dayjs": "^1.11.2",
-    "dotenv": "^16.0.1",
-    "playwright": "^1.22.2",
-    "winston": "^3.7.2"
+    "playwright": "^1.22.2"
+  },
+  "devDependencies": {
+    "jest": "^28.1.1"
   }
 }
