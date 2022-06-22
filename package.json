@@ -9,6 +9,11 @@
   },
   "author": "Jeff Fredrickson <jeff.fredrickson@gmail.com>",
   "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jfredrickson/tsp-scraper.git"
+  },
+  "homepage": "https://github.com/jfredrickson/tsp-scraper#readme",
   "dependencies": {
     "cheerio": "^1.0.0-rc.11",
     "dayjs": "^1.11.2",
