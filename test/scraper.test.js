@@ -6,5 +6,5 @@ test('parses a share price table', () => {
   const result = scraper.parse(table);
   expect(result.length).toEqual(37);
   expect(result[0].date).toEqual('2022-06-17');
-  expect(result[0].prices['G']).toEqual('16.9104');
+  expect(result[0].prices).toContainEqual({ fund: 'G', price: '16.9104' });
 });

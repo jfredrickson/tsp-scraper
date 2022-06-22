@@ -23,12 +23,12 @@ function parse(table) {
     const date = dayjs($(row).children().first().text().trim());
     const dailyPrices = {
       date: date.format('YYYY-MM-DD'),
-      prices: {}
+      prices: []
     };
     $(row).children().slice(1).each((index, fundPrice) => {
       const fund = fundNames[index];
       const price = $(fundPrice).text().replace('$', '');
-      dailyPrices.prices[fund] = price;
+      dailyPrices.prices.push({ fund, price })
     });
     sharePrices.push(dailyPrices);
   });

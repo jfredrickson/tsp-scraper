@@ -1,6 +1,6 @@
 {
   "name": "tsp-scraper",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "Scrapes TSP share prices from the TSP website.",
   "main": "scraper.js",
   "bin": "./scraper.js",
